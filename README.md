@@ -42,6 +42,12 @@ WASD 移动，鼠标调整视角，空格跳跃，Shift 滑行，R 终极技，E
 node --test tests/test_pokebonk_adapter.mjs
 ```
 
+运行资源包准备器的自建 ZIP/Base64 边界检查：
+
+```powershell
+python -m unittest discover -s tests -p "test_*.py" -v
+```
+
 核对全部原始资源身份及派生改动，不执行游戏：
 
 ```powershell

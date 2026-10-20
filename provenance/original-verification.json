@@ -1,0 +1,9 @@
+{
+  "baseline": "scan-complete/inventory.json",
+  "after": "verification/inventory.json",
+  "files": 1714,
+  "added": [],
+  "removed": [],
+  "changed": [],
+  "unchanged": true
+}

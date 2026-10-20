@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+node_modules/
+.venv/
+qa-storage.json
+runtime-check.json
+*.zip
+offline_web/*
+!offline_web/index.html
+!offline_web/offline-adapter.js
+!offline_web/assets/
+offline_web/assets/*
+!offline_web/assets/main-rEMKAGlg-mvgfxz8a.js

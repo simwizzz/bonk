@@ -1,0 +1,31 @@
+{
+  "kind": "real-local-derived-client-runtime-check",
+  "started": "2026-10-20T11:05:21.899Z",
+  "success": true,
+  "stage_names": [
+    "main-menu",
+    "run-setup",
+    "region-setup",
+    "battle-start",
+    "battle-paused",
+    "exit-dialog",
+    "settled",
+    "reload-restored"
+  ],
+  "run": {
+    "species": 7,
+    "biome": "forest",
+    "mode": "standard",
+    "time": 14.465600000000224,
+    "kills": 2,
+    "damage": 172,
+    "level": 1,
+    "victory": false
+  },
+  "restored_same_run": true,
+  "restored_run_count": 1,
+  "errors": [],
+  "network": [],
+  "native_visual_acceptance": false,
+  "note": "Only summary metrics are included; browser storage, account identifiers and QA profile are excluded."
+}

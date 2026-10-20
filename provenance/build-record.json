@@ -1,0 +1,24 @@
+{
+  "source_build": "mvgfxz8a",
+  "version": "0.7.8",
+  "source_main_sha256": "04754012d5a26591408e656d75e93b41eccde4e26a365726633c6e673e39bb66",
+  "derived_main_sha256": "8860e6d302025f932bb387c3382130efdca431b7d0a053803c79d12563729876",
+  "edits": [
+    {
+      "file": "assets/main-rEMKAGlg-mvgfxz8a.js",
+      "old": "function SE(e){return new xE(`https://api.pokebonk.com`.replace(/\\/$/,``))}",
+      "new": "function SE(e){return createReaLocalBackend({rules:{createProfile:Iy,normalizeProfile:Ly,refreshTasks:Xy,buyLab:Gy,buyItem:Ky,archiveItem:(p,k,off)=>qy(p,k,off,k=>Te.has(k)),claimQuest:Jy,claimTask:eb,rerollTask:tb,score:yt,season:y,starters:Ny,leagueHas:id=>m.has(id),leagueReady:Wy,biomes:ne,biomeEnabled:C,task:ce,counterCaps:Me,shinyRewards:ae},dex:()=>rb})}",
+      "imports": [
+        "offline-adapter.js"
+      ]
+    },
+    {
+      "file": "index.html",
+      "removed_cloudflare_scripts": 1,
+      "added": "local build notice"
+    }
+  ],
+  "server_policy": "127.0.0.1 only; CSP connect/script/media/img self; no API proxy",
+  "adapter_sha256": "21f6c33439302de4453fc32c9550876e25cf0c9a1e60a6b0756df97392301ccd",
+  "derived_index_sha256": "aba9cb4730c7028c62bc7e8a53bc9c7e300c8618c7936c3d91e35ab9d3a6ea8a"
+}
